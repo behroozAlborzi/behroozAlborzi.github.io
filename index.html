@@ -3,14 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>Behrooz Alborzi</title>
- /* <style>
-    h2 { color: #333; font-family: Arial; }
-    body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; }
-  </style> */
+  <link rel="stylesheet" href="style.css">
 </head>
+<body>
+  <nav class="nav">
+    <button id="langToggle">Toggle Language</button>
+  </nav>
 <main class="container">
     <section id="about">
-        <h2 data-en="About" data-fa="درباره">About</h2>
+        <h2 class="lang-en">About</h2>
+       <h2 class="lang-fa" style="display: none;">درباره</h2>
         <p class="about-text" data-en>
             I'm an Android programmer who is fluent in Java and Kotlin languages and the Android Studio
             environment. Motivated Android Developer with over a year of programming experience,
@@ -25,7 +27,8 @@
     </section>
 
     <section id="skills">
-        <h2 data-en="Skills" data-fa="مهارت‌ها">Skills</h2>
+        <h2 class="lang-en">Skills</h2>
+      <h2 class="lang-fa" style="display: none;">مهارت‌ها:</h2>
         <ul class="grid">
             <li>Java</li>
             <li>Kotlin</li>
@@ -37,7 +40,8 @@
     </section>
 
     <section id="projects">
-        <h2 data-en="Projects" data-fa="پروژه‌ها">Projects</h2>
+        <h2 class="lang-en">Projects</h2>
+        <h2 class"lang-fa" style="display: none;"> پروژه ها:</h2>
         <div class="cards">
             <article class="card">
                 <h3>Portfolio Website</h3>
@@ -55,12 +59,14 @@
     </section>
 
     <section id="education">
-        <h2 data-en="Education" data-fa="تحصیلات">Education</h2>
+        <h2 class="lang-en" >Education</h2>
+      <h2 class="lang-fa" style="display: none;">تحصیلات :</h2>
         <p>Bachelor / Relevant courses or bootcamps (add details here)</p>
     </section>
 
     <section id="contact">
-        <h2 data-en="Contact" data-fa="تماس">Contact</h2>
+       <h2 class="lang-en" >Contact</h2>
+      <h2 class="lang-fa" style="display: none;">تماس :</h2>
         <p>If you'd like to reach me: <a href="mailto:behrouz.alborzi@gmail.com">behrouz.alborzi@gmail.com</a></p>
         <p class="links">
             <a href="https://github.com/behroozAlborzi" target="_blank">GitHub</a>
